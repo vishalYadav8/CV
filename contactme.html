@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="description" content="Contact Vishal">
+    </head>
+    <body>
+        <h1>Vishal's Contact Details</h1>
+        <ul>
+            <li>Vishal Yadav</li>
+            <li>8468917366</li>
+            <li>vshlyadav82@gmail.com</li>
+        </ul>
+        <hr>
+        <form action="mailto:vipiny389@gmail.com" method="POST" enctype="text/plain" >
+            <table>
+                <tr>
+                    <td><label for="name"> Your Name:</label></td>
+                    <td><input type="text" id="name" name="name" required minlength="4" maxlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="EmailAddress">Email Address:</label></td>
+                    <td><input type="email" name="EmailAddress" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="textbox">Your Message</label></td>
+                    <td><textarea name="textarea" rows="10" cols="40">Enter the Message</textarea></td>
+                </tr>
+            </table>
+            <br> 
+            <input type="submit"> 
+        </form>
+    </body>
+</html>
